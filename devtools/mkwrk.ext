@@ -1,1 +1,5 @@
-echo 'test';
+
+set -e
+cd "$WRK_DIR/devtools";
+
+./install_deps
